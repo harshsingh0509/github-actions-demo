@@ -26,3 +26,7 @@ jobs:
 
       - name: Run Tests
         run: npm test
+
+      - name: Debug File Structure
+        run: ls -R
+
